@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 
 import PageHeader from "../../components/ui/PageHeader";
-import { exerciseCategories } from "../../types";
+import { exerciseCategories } from "../../data/categories";
 import { exerciseCatalog } from "../../data/exercises";
 
 import ExerciseCard from "./ExerciseCard";

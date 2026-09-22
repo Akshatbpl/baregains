@@ -1,5 +1,6 @@
+// src/features/exercises/ExerciseFilters.tsx
 import type {
-  CategoryId,
+  CategoryDefinition,
   ExerciseDifficulty,
   EquipmentAccess,
 } from "../../types";
@@ -53,13 +54,9 @@ const equipmentOptions: ReadonlyArray<{
     },
   ];
 
-type CategoryOption = {
-  readonly id: CategoryId;
-  readonly label: string;
-};
 
 type ExerciseFiltersPanelProps = ExerciseFiltersProps & {
-  categories: readonly CategoryOption[];
+  categories: readonly CategoryDefinition[];
 };
 
 function ExerciseFilters({

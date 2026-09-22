@@ -1,3 +1,5 @@
+// src/features/exercises/ExerciseProgressPanel.tsx
+
 import { useMemo, useState } from "react";
 
 import Button from "../../components/ui/Button";

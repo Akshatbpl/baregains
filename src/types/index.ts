@@ -3,10 +3,6 @@ export type {
   CategoryId,
 } from "./category";
 
-export {
-  exerciseCategories,
-} from "./category";
-
 export type {
   EquipmentAccess,
   EnvironmentRequirement,

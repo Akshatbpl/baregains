@@ -1,9 +1,9 @@
+// src/features/exercises/ExerciseDetailPage.tsx
+
 import { Link, useParams } from "react-router-dom";
 
 import PageHeader from "../../components/ui/PageHeader";
-import {
-  exerciseCategories,
-} from "../../types";
+import { exerciseCategories } from "../../data/categories";
 
 import {
   getExerciseById,
